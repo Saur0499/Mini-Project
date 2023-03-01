@@ -1,0 +1,38 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    background-image: url("slm.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.nav-menu
+{       
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.nav-menu li
+{
+    display: inline-block;
+    padding: 0 5px;
+}
+.nav-menu a
+{
+    color: white;
+    background: #191919;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.nav-menu a:hover
+{
+    background: white;
+    color:  #191919;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.copt
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.copt li
+{
+    display: block;
+}
+.copt li a
+{
+    display:inline-block;
+    width: 250px;
+    height: 30px;
+    color:#191919;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    background: white;
+    border-radius: 5px;
+}
+.copt li a:hover
+{
+    background: #191919;
+    color: white;
+}
+

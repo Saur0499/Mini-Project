@@ -1,0 +1,83 @@
+.sotp
+{
+    width: 350px;
+    padding: 30px;
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    background: #191919;
+    text-align: center;
+    box-shadow: 20px 20px #2f2f2f;
+
+}
+.votp
+{
+    width: 350px;
+    padding: 30px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    background: #191919;
+    text-align: center;
+    box-shadow: 20px 20px #2f2f2f;
+}
+h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+input[type="text"],input[type="password"]
+{
+    border:0;
+    background: none;
+    display: block;
+    font-size: 17px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 250px;
+    outline: white;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+input[type="text"]:focus,input[type="password"]:focus
+{
+    width:300px;
+    border-color: #2ecc71;
+
+}
+input[type="submit"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: white;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;  
+    font-size: 17px;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    background: #2ecc71;
+}
+.inf
+{
+    background: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 24px;
+}
+span
+{
+    color: white;
+    font-family: sans-serif;
+}
